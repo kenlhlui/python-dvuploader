@@ -107,12 +107,12 @@ def main(
     """
     Uploads files to a Dataverse repository.
 
-    Args:
-        filepaths (List[str]): A list of filepaths to upload.
-        pid (str): The persistent identifier of the Dataverse dataset.
-        api_token (str): The API token for the Dataverse repository.
-        dataverse_url (str): The URL of the Dataverse repository.
-        config_path (Optional[str]): Path to a JSON/YAML file containing specifications for the files to upload. Defaults to None.
+    Args:\n
+        filepaths (List[str]): A list of filepaths to upload.\n
+        pid (str): The persistent identifier of the Dataverse dataset.\n
+        api_token (str): The API token for the Dataverse repository.\n
+        dataverse_url (str): The URL of the Dataverse repository.\n
+        config_path (Optional[str]): Path to a JSON/YAML file containing specifications for the files to upload. Defaults to None.\n
         n_jobs (int): The number of parallel jobs to run. Defaults to -1.
     """
 
