@@ -46,7 +46,7 @@ class File(BaseModel):
     description: str = ""
     directory_label: str = Field(default="", alias="directoryLabel")
     mimeType: str = "application/octet-stream"
-    categories: List[str] | None = ["DATA"]
+    categories: List[str] | None = None
     restrict: bool = False
     checksum_type: ChecksumTypes = Field(default=ChecksumTypes.MD5, exclude=True)
     storageIdentifier: Optional[str] = None
